@@ -6,7 +6,7 @@ metadata:
 spec:
   sourceRef:
     kind: GitRepository
-    name: podinfo-config-webapp
+    name: podinfo-config
   git:
     checkout:
       ref:
