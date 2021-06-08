@@ -5,9 +5,9 @@ metadata:
   namespace: wego-system
 spec:
   checkout:
-    branch: main
+    branch: dev
     gitRepositoryRef:
-      name: flux-system
+      name: podinfo-config
   commit:
     authorEmail: fluxcdbot@users.noreply.github.com
     authorName: fluxcdbot
