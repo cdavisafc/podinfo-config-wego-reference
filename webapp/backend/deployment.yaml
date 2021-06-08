@@ -25,7 +25,7 @@ spec:
       serviceAccountName: webapp
       containers:
       - name: backend
-        image: cdavisafc/podinfo:6.0.7  # {"$imagepolicy": "flux-system:podinfo"}
+        image: cdavisafc/podinfo:6.0.7  # {"$imagepolicy": "wego-system:podinfo"}
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
