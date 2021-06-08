@@ -15,4 +15,5 @@ spec:
       author:
         email: fluxcdbot@users.noreply.github.com
         name: fluxcdbot
-      messageTemplate: '[ci skip] update image'  interval: 30s
+      messageTemplate: '[ci skip] update image'
+    interval: 30s
